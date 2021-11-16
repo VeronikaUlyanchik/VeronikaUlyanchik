@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.my-photo{
+    width: 150px;
+}
+.about-me{
+    background-color: #d5bea6;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 25px;
+    margin-bottom: 40px;
+}
+.projects{
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+.redline {
+    background-color: red;
+    width: 400px;
+    font-size: 22px;
+    position: relative;
+    padding: 50px;
+    font-weight: 100;
+}
+.main-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 497px;
+    margin-bottom: 40px;
+}
+.laptop {
+    width: 620px;
+    position: absolute;
+}
+.carousel {
+    position: relative;
+    top: 21px;
+    left: 77px;
+    width: 468px;
+    height: 406px;
+}
