@@ -87,4 +87,41 @@ p {
 .points:hover{
     font-weight: 800;
 }
+.carousel-indicators{
+    margin-bottom: 13rem;
+}
 
+@media (max-width: 1100px)  {
+    .projects, .contacts{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+}
+}
+
+@media (max-width: 670px)  {
+    .carousel {
+        width: 379px;
+}
+.laptop {
+    width: 519px;
+    position: absolute;
+}
+.laptop-carousel {
+    width: 556px;
+}
+}
+@media (max-width: 566px)  {
+    .carousel {
+            top: 17px;
+            left: 63px;
+            width: 343px;
+            height: 372px;
+}
+.laptop {
+    width: 468px;
+}
+.laptop-carousel {
+    width: 463px;
+}
+}
