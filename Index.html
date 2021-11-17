@@ -17,10 +17,9 @@
         <div class="header">
             <div><img src="assets/my-photo.png" class="my-photo"></div>
             <div class="header-menu">
-                <p>About me</p>
-                <p>Contacts</p>
-                <p>Education and Skills</p>
-                <p>Projects</p>
+                <p class="points"><a href="#edu" style="color:black; text-decoration:none"> Education and Skills</a></p> 
+                <p class="points"> <a href="#projects" style="color:black; text-decoration:none">Projects</a></p>
+                <p class="points"> <a href="#contacts" style="color:black; text-decoration:none">Contacts</a></p>
             </div>
         </div>
         <div class="main-info">
@@ -36,7 +35,7 @@
                
             </h3>
         </div>
-        <div class="about-me">
+        <div class="about-me" id="edu">
             <div>
                 <h2>Work History</h2>
                 <p>Customs specialist<br>
@@ -77,9 +76,11 @@
                 </div>
 
             </div>
-            <div class="projects">
-                <img src="assets/Laptop-PNG-HD.png" class="laptop">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="projects" id="projects">
+              <div class="projects-name">Projects</div>
+              <div class="laptop-carousel">
+                  <img src="assets/Laptop-PNG-HD.png" class="laptop">
+                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -87,24 +88,24 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="assets/site.PNG" class="d-block w-100" alt="...">
+                        <a href="https://veronikaulyanchik.github.io/ulyanchik_vs.github.io/" target="_blank"><img src="assets/site.PNG" class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>Метка первого слайда</h5>
-                          <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+                          <p>Online-shop</p>
+                          <p></p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="assets/mini adress.PNG" class="d-block w-100" alt="...">
+                        <a href="https://veronikaulyanchik.github.io/table/ " target="_blank"><img src="assets/mini adress.PNG" class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>Метка второго слайда</h5>
-                          <p>Некоторый репрезентативный заполнитель для второго слайда.</p>
+                          <p>Table</p>
+                          
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="assets/todoapp.PNG" class="d-block w-100" alt="...">
+                        <a href="https://veronikaulyanchik.github.io/my-ToDo-App/" target="_blank"><img src="assets/todoapp.PNG" class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>Метка третьего слайда</h5>
-                          <p>Некоторый репрезентативный заполнитель для третьего слайда.</p>
+                          <p>Mini Todo App</p>
+                          
                         </div>
                       </div>
                     </div>
@@ -117,7 +118,18 @@
                       <span class="visually-hidden">Следующий</span>
                     </button>
                   </div>
+                
             </div>
+        </div>
+        <div class="contacts" id="contacts">
+          <div class="projects-name contacts-name">Contacts</div>
+          <div>
+            <p> <a href="https://drive.google.com/file/d/1Ak4Xa4BALXL6VboSWJgOGA2Dxfhn2fxJ/view?usp=sharing" target="_blank">CV<a/></p>
+            <p>E-mail: veronikaullll1998@gmail.com</p>
+            <p>Telegram: <a href="https://t.me/VeronikaUlyanchik" target="_blank"> https://t.me/VeronikaUlyanchik</a></p>
+            <p>LinkedIn : <a href="https://www.linkedin.com/in/veronika-ulyanchik1998/" target="_blank"> https://www.linkedin.com/in/veronika-ulyanchik1998/</a></p>
+            <p>GitHub: <a href="https://github.com/VeronikaUlyanchik" target="_blank"> https://github.com/VeronikaUlyanchik</a></p>
+          </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

@@ -7,6 +7,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+p {
+    font-weight: 700;
+}
 .my-photo{
     width: 150px;
 }
@@ -14,13 +17,18 @@ body {
     background-color: #d5bea6;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 25px;
-    margin-bottom: 40px;
+    padding: 58px;
+    margin: 40px;
 }
-.projects{
-    width: 500px;
+.projects, .contacts{
     position: relative;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+.contacts {
+    background-color: blanchedalmond;
 }
 .redline {
     background-color: red;
@@ -49,3 +57,34 @@ body {
     width: 468px;
     height: 406px;
 }
+.projects-name{
+    color: rgb(207, 26, 26);
+    font-size:70px;
+    position: relative;
+    padding: 40px;
+}
+.contacts-name{
+    left: -45px;
+}
+.laptop-carousel {
+    width: 600px;
+}
+.carousel-caption{
+    bottom: -0.75rem; 
+    color: #000;
+    position: relative;
+    z-index: 99;
+    left: 0%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black;  
+}
+.points{
+    cursor: pointer;
+}
+.points:hover{
+    font-weight: 800;
+}
+
